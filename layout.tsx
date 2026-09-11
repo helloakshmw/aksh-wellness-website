@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "mental wellness",
     "counselling",
     "psychology",
-    "Meghana Kaverappa",
+    "Meghana Kaverappa"
   ],
   metadataBase: new URL("https://akshmentalwellness.com"),
   openGraph: {
@@ -21,16 +21,16 @@ export const metadata: Metadata = {
     description:
       "A safe, calm and human-centered space for mental wellness and support.",
     type: "website",
-    siteName: "AKSH Mental Wellness",
+    siteName: "AKSH Mental Wellness"
   },
   robots: {
     index: true,
-    follow: true,
-  },
+    follow: true
+  }
 };
 
 export default function RootLayout({
-  children,
+  children
 }: Readonly<{
   children: React.ReactNode;
 }>) {
